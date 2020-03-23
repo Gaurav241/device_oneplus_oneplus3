@@ -872,31 +872,31 @@ product/lib64/libimscamera_jni.so|7cb89110cca94d37d68c705f12a7a5a4ee106139
 product/lib64/libimsmedia_jni.so|3540752cc3658261ea3c909f03018eea4398f84e
 -product/priv-app/ims/ims.apk|9c4ca91e0ec7a567d22251d7ca0640abf13fdd7b
 
-# Radio - MBN
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mbn_ota.txt
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Airtel-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CU_OpenMkt-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_EE-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Elisa-VoLTE.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3G-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3GDK-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Idea-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_MTNL_BSNL.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_NoCDMA-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_Test-VoLTE.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Reliance-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_UK-VoLTE.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Vodafone-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_YTL-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw/mbn_ota.txt
-etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_ATT-VoLTE.mbn
-etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_CT_OpenMkt-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_CU_OpenMkt-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_CDMA-Commercial.mbn
-etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_Test-VoLTE.mbn
-etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_TMO-Commercial.mbn
+# MBN OTA - OOS
+etc/firmware/mbn_ota/mcfg_sw/mbn_ota.txt:vendor/firmware/mbn_ota/mcfg_sw/mbn_ota.txt|5bb0f239aeaeaeb51bb43f89c66ba310415be6d2
+etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_ATT-VoLTE.mbn:vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_ATT-VoLTE.mbn|8fdf5f07774d86714505d1f5bb975fb8d80c1122
+etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn|63e04660f760d295b5a1dbf57bef6c36adec384e
+etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_CT_OpenMkt-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_CT_OpenMkt-Commercial.mbn|c23bac4d9bf6723da2f70658eaab6faf5a0b3a15
+etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_CU_OpenMkt-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_CU_OpenMkt-Commercial.mbn|a41b37381ef55ee52750f86e0453d23d9025cb60
+etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_CDMA-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_CDMA-Commercial.mbn|b76a9fdc1c6d3e026714f443d5ee7fc6f3b05fb2
+etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_Test-VoLTE.mbn:vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_OEM_Test-VoLTE.mbn|e53a5cbafa56d12fd40e09aeb59f8a0b80413451
+etc/firmware/mbn_ota/mcfg_sw/mcfg_sw_TMO-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw/mcfg_sw_TMO-Commercial.mbn|38c59d0877542004f8e6dc12a7d9660311e66df2
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mbn_ota.txt:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mbn_ota.txt|f1c4d20963277290b0e3d624303e994e72f67156
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Airtel-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Airtel-Commercial.mbn|e32169d0a5f11a948f374548fa77e3c72119fa71
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CMCC_Volte_OpenMkt-Commercial.mbn|63e04660f760d295b5a1dbf57bef6c36adec384e
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CU_OpenMkt-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_CU_OpenMkt-Commercial.mbn|a41b37381ef55ee52750f86e0453d23d9025cb60
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_EE-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_EE-Commercial.mbn|ff025dc29563352a75add21c0b6225144de2cbd8
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Elisa-VoLTE.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Elisa-VoLTE.mbn|bd573abb3832bd3a9f4682723624b6722beba451
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3G-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3G-Commercial.mbn|85bb15611d11c4b89c07270aed73d5e3f44dfff9
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3GDK-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_H3GDK-Commercial.mbn|732818feba192b874c2f3b8d5fbf0bf45d30effa
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Idea-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Idea-Commercial.mbn|2a9868110c684e95149c348c8414c8f708e4b4a2
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_MTNL_BSNL.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_MTNL_BSNL.mbn|7447d63f256352ff73254b71c141feb25068757e
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_NoCDMA-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_NoCDMA-Commercial.mbn|8dd36895a976afe6e07f46c53091214193a74bc1
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_Test-VoLTE.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_OEM_Test-VoLTE.mbn|e53a5cbafa56d12fd40e09aeb59f8a0b80413451
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Reliance-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Reliance-Commercial.mbn|7c43c4bea49bba6de3711bac35a8cfcd60de3277
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_UK-VoLTE.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_UK-VoLTE.mbn|f05e92f80cf98dd74ff6d0052811b7bf9af27247
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Vodafone-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_Vodafone-Commercial.mbn|391db2107975352d4534ed8bda37f70c2531372e
+etc/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_YTL-Commercial.mbn:vendor/firmware/mbn_ota/mcfg_sw_NoCDMA/mcfg_sw_YTL-Commercial.mbn|9a8f6f28c0fa6c3d0b0ae0dbd572e108b261de7c
 
 # Sensors
 vendor/bin/sensors.qti
