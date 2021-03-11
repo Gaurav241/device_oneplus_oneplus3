@@ -12,10 +12,6 @@ genfscon sysfs /devices/soc/soc:qcom,bcl/power_supply/bcl/type          u:object
 genfscon sysfs /devices/soc/400f000.qcom,spmi/spmi-0/spmi0-03/400f000.qcom,spmi:qcom,pmi8994@3:qcom,haptics@c000/leds    u:object_r:sysfs_leds:s0
 genfscon sysfs /devices/soc/400f000.qcom,spmi/spmi-0/spmi0-03/400f000.qcom,spmi:qcom,pmi8994@3:qcom,leds@d000/leds       u:object_r:sysfs_leds:s0
 
-# LiveDisplay
-genfscon sysfs /devices/virtual/graphics/fb0/dci_p3 u:object_r:sysfs_livedisplay_tuneable:s0
-genfscon sysfs /devices/virtual/graphics/fb0/srgb   u:object_r:sysfs_livedisplay_tuneable:s0
-
 # Ril
 genfscon debugfs /rmt_storage                       u:object_r:debugfs_rmt_storage:s0
 
